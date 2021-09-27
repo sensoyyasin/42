@@ -1,0 +1,5 @@
+Credentials cache: API:C4ECE295-CE2B-4EBE-A8A0-9CDE4B17B949
+        Principal: ysensoy@42KOCAELI.COM.TR
+
+  Issued                Expires             Flags    Principal
+Sep 27 18:58:40 2021  Sep 28 04:58:40 2021  FPIA   krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
