@@ -6,7 +6,7 @@
 /*   By: ysensoy <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 20:13:57 by ysensoy           #+#    #+#             */
-/*   Updated: 2021/10/04 20:14:22 by ysensoy          ###   ########.fr       */
+/*   Updated: 2021/10/04 20:33:25 by ysensoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	ft_putnbr(int a, int b)
 void	ft_print_comb2(void)
 {
 	int	a;
-	int b;
+	int	b;
 
 	a = 0;
 	while (a <= 98)
