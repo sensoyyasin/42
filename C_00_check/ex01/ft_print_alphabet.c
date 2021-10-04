@@ -1,12 +1,18 @@
-#include<unistd.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ysensoy <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/10/04 20:03:58 by ysensoy           #+#    #+#             */
+/*   Updated: 2021/10/04 20:04:07 by ysensoy          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void ft_print_alphabet(void)
-{
-write(1, "abcdefghijklmnopqrstuvwxyz",26);
-write(1,"\n",1);
-}
-int main()
-{
-	ft_print_alphabet();
-	return 0;
+#include <unistd.h>
+
+void	ft_print_alphabet(void)
+	{
+	write(1, "abcdefghijklmnopqrstuvwxyz", 26);
 }
