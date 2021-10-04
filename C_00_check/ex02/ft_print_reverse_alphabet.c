@@ -6,12 +6,13 @@
 /*   By: ysensoy <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 20:06:11 by ysensoy           #+#    #+#             */
-/*   Updated: 2021/10/04 20:08:41 by ysensoy          ###   ########.fr       */
+/*   Updated: 2021/10/04 20:20:52 by ysensoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
-void ft_print_reverse_alphabet(void)
+
+void	ft_print_reverse_alphabet(void)
 {
-write(1,"zyxwvutsrqponmlkjihgfedcba",26);
+	write(1, "zyxwvutsrqponmlkjihgfedcba", 26);
 }
