@@ -4,10 +4,9 @@ int	ft_str_is_alpha(char *str)
 {
 	int	i;
 
-	i = 0;
 	while (str[i] != '\0')
 	{
-		if (65 > str[i] || str[i] > 90 && str[i] < 97 || str[i] > 122)
+		if ('A' > str[i] && str[i] > 'Z' || str[i] < 'a' && str[i] > 'z')
 		{
 			return (0);
 		}

@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ysensoy <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/05 18:55:30 by ysensoy           #+#    #+#             */
-/*   Updated: 2021/10/08 11:07:31 by ysensoy          ###   ########.fr       */
+/*   Created: 2021/10/08 10:13:40 by ysensoy           #+#    #+#             */
+/*   Updated: 2021/10/08 10:26:17 by ysensoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_ultimate_div_mod(int *a, int *b)
+void	*ft_strcpy(char *dest, char *src)
 {
-	int	c;
-	int	d;
+	int	i;
 
-	if (*b != 0)
+	i = 0;
+	while (src[i] != '\0')
 	{
-		c = a / b;
-		*a = c;
-		d = a % b;
-		*b = d;
+		dest[i] = src[i];
+		i++;
 	}
+	dest[i] = '\0';
+	return (dest);
 }
