@@ -1,6 +1,0 @@
-Credentials cache: API:A4ADE7A1-D919-443D-8319-280C1E428F0A
-        Principal: ysensoy@42KOCAELI.COM.TR
-
-  Issued                Expires               Principal
-Sep 30 09:09:28 2021  Sep 30 19:09:28 2021  krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
-Sep 30 09:09:29 2021  Sep 30 19:09:28 2021  HTTP/student-storage.42kocaeli.com.tr@42KOCAELI.COM.TR
