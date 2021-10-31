@@ -4,6 +4,6 @@ Exam0 : 16% ❌
 
 Exam1 : 16% ❌
 
-Exam2 : 0% ❌
+Exam2 : 0%  ❌
 
 Final Exam : 42%  ✔️
